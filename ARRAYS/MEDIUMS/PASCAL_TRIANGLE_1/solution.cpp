@@ -19,7 +19,7 @@ class Solution{
             }
 
             if(r == 1) return n;
-            
+
             for(int i =0; i<r;i++){
                 res = res*(n-i);
                 res = res/(i+1);
